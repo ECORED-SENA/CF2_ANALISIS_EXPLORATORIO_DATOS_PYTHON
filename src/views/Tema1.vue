@@ -78,21 +78,170 @@
     .titulo-segundo.mt-5
       h2#t_1_2 1.2 Primeros pasos
 
-    .row
+    .cont_background2.pb-5(style="position:relative")
+      .row(style="position:relative")
+        .col-md-5(style="position:relative")
+          figure(style="position:relative")
+            img(src="@/assets/curso/tema1/8.svg" data-aos="fade-right" style="position:relative")
+        .col-md-7(style="place-self:center;position:relative")
+          .row(style="position:relative")
+            .col-auto(style="position:relative")
+              figure(style="position:relative")
+                img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" style="position:relative")
+            .col(style="position:relative")
+              p(data-aos="fade-up" style="position:relative") Una vez realizada la instalación correctamente, se recomienda reiniciar el computador, para que todas las herramientas terminen su proceso de configuración y se pueda empezar a trabajar en la aplicación que provee esta distribución.
+
+          p.mt-4(data-aos="fade-up" style="position:relative") Después de haber realizado la instalación, ingrese en la barra de búsqueda las palabras Anaconda Navigator, y seleccione el ícono correspondiente que indica la aplicación; esta distribución de software incorpora varias aplicaciones que permiten ejecutar código del lenguaje de programación Python, las cuales pueden usarse en modo consola o de interfaz gráfica.
+
+          p.mt-4(data-aos="fade-up" style="position:relative") En el siguiente recurso educativo, conocerá los primeros pasos para la ejecución del entorno de trabajo en una de las aplicaciones provistas por Anaconda Navigator denominada JupiterLabs, esta es la aplicación que se estará utilizando en el curso de análisis exploratorio de los datos:
+
+      .tarjeta.tarjeta--gris.p-5.mt-5(style="background-color: rgba(52,163,237,0.1)")
+        LineaTiempoC.color-acento-contenido(text-small style="position:relative")
+          .row(titulo="1" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Abrir Anaconda Navigator
+              p(style="position:relative") Para el software Anaconda Navigator, diríjase a la barra de búsqueda de su computador y escriba #[strong(style="color:#BE2057;") Anaconda Navigator]; en la medida que empiece a escribir, se irán filtrando las aplicaciones; seleccione el ícono que se identifica como aplicación de #[strong(style="color:#BE2057;") Anaconda Navigator], como se muestra en la imagen.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/11.svg', alt='' style="position:relative")
+
+          .row(titulo="2" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Seleccione la herramienta JupiterLab
+              p(style="position:relative") Cuando se abre la Anaconda Navigator, usted podrá observar múltiples herramientas para el manejo de proyectos en Python; para este caso, la herramienta a utilizar será JupiterLab, para usar esta aplicación, selecciona la herramienta dando clic en el botón Launch.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/12.svg', alt='' style="position:relative")
+
+          .row(titulo="3" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Haga clic sobre el botón Launch
+              p(style="position:relative") Allí se desprende el entorno de trabajo que se muestra en la imagen. Al lado izquierdo, encontrará las carpetas necesarias para  guardar cada uno de sus archivos; al lado derecho, aparece el tipo de aplicación que se utilizará; para este caso, el curso está basado en la creación de Notebooks.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/13.svg', alt='' style="position:relative")
+
+          .row(titulo="4" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Creación de #[em Notebooks]
+              p(style="position:relative") Para crear los #[em Notebooks], seleccione la primera opción de la derecha, tal como se muestra en la imagen; en el panel izquierdo, puede seleccionar la carpeta donde  va a guardar los #[em Notebooks].  
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/14.svg', alt='' style="position:relative")
+
+          .row(titulo="5" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Extensión. ipynb
+              p(style="position:relative") Los #[em Notebooks] tienen la extensión .ipynb, y el entorno de trabajo se puede apreciar en la imagen.  
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/15.svg', alt='' style="position:relative")
+
+          .row(titulo="6" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative")  Celdas en los #[em Notebooks]
+              p(style="position:relative") En la siguiente imagen, se representan los tres tipos de celdas que se utilizan en los Notebooks: la primera línea es un comentario, como se aprecia en la imagen: “Mi Primer Programa”,  esta sirve para llevar la documentación del archivo; la siguiente línea: print (“Hola Mundo”), ejecuta la línea de comando del lenguaje Python.
+              p.mt-4 Finalmente, la tercera línea muestra los resultados, en este caso, el texto “hola mundo”, estos datos también pueden ser numéricos, tablas, gráficos, entre otros.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/16.svg', alt='' style="position:relative")
+
+          .row(titulo="7" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Herramientas del archivo Notebook
+              p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo Notebook, y que ayuda al desarrollo del proyecto. 
+              ul.lista-ul.mt-2
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | Para guardar el Notebook, utilice el primer ícono en forma de disquete.
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | Cada vez que se requiere adicionar una nueva línea, ya sea de comentario o de código, se utiliza el ícono con el signo +.
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | El ícono de las tijeras elimina las líneas de código. 
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | Las líneas se ejecutan de manera independiente con el ícono de forma triangular.
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | Para pausar o detener el proceso, el ícono indicado es el cuadrado al lado del triángulo.
+                li 
+                  i.fas.fa-caret-right(style="color:#067EFF;")
+                  | La flecha en forma circular se utiliza para reiniciar el programa desde la primera línea.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/17.svg', alt='' style="position:relative")
+
+          .row(titulo="6" style="position:relative")
+            .col-md-6.mb-4.mb-md-0(style="position:relative")
+              h4(style="position:relative") Herramientas del archivo Notebook
+              p(style="position:relative") En la parte superior derecha, está la lista de opciones para indicar si una línea es de código o de comentario; como se aprecia en la siguiente imagen, se pueden seleccionar tres opciones:
+              p.mt-4 #[strong Code:] líneas de código que son interpretadas por el lenguaje de programación Python.
+              p.mt-4 #[strong Markdown:] líneas de comentarios, ayudan a documentar el proyecto, pueden incluir textos con formatos, imágenes, tablas, entre otros.
+              p.mt-4 #[strong Raw:] se usa para visualizar la información tal como se escribe, pero no es interpretada por el lenguaje.
+            .col-md-6(style="position:relative")
+              figure(style="position:relative")
+                img(src='@/assets/curso/tema1/18.svg', alt='' style="position:relative")
+
+    Separador
+
+    .titulo-segundo.mt-5
+      h2#t_1_3 1.3 Mi primer programa
+
+    .row(style="position:relative;z-index:1;")
       .col-md-5
         figure
-          img(src="@/assets/curso/tema1/8.svg" data-aos="fade-right")
-      .col-md-7(style="place-self:center;")
-        .row
-          .col-auto
-            figure
-              img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
-          .col
-            p(data-aos="fade-up") Una vez realizada la instalación correctamente, se recomienda reiniciar el computador, para que todas las herramientas terminen su proceso de configuración y se pueda empezar a trabajar en la aplicación que provee esta distribución.
+          img(src="@/assets/curso/tema1/19.svg" data-aos="fade-right")
+      .col-md-7
+        .cont_background3(style="position:relative;z-index:1")
+          p(data-aos="fade-up" style="position:relative") Para comprender lo visto hasta el momento, replique el siguiente ejemplo, que consiste en capturar dos variables y mostrar como resultado la suma de ellas. Para cada celda donde solicite la variable, realice la operación e incluya una celda de comentario que dé cuenta de lo que se ha realizado o lo que se busca con esa línea.
+          .row.mt-4(style="position:relative")
+            .col-auto(style="position:relative")
+              figure(style="position:relative")
+                img(src="@/assets/curso/tema1/20.svg" data-aos="fade-up" style="position:relative")
+            .col(style="position:relative")
+              p(data-aos="fade-up" style="position:relative") Como se observa en la #[strong(style="color:#34A3ED;") figura 2], se utilizan las celdas de comentarios que especifican cada una de las operaciones a realizar, y las celdas de código que se pueden fácilmente identificar por el número que se asigna a la derecha encerrado entre corchetes.
+              p.mt-4(data-aos="fade-up" style="position:relative") Se ubica en cada una de las celdas de código y las ejecuta con el ícono triangular ubicado en la barra superior, hasta poder visualizar el resultado final.
 
-        p.mt-4(data-aos="fade-up") Después de haber realizado la instalación, ingrese en la barra de búsqueda las palabras Anaconda Navigator, y seleccione el ícono correspondiente que indica la aplicación; esta distribución de software incorpora varias aplicaciones que permiten ejecutar código del lenguaje de programación Python, las cuales pueden usarse en modo consola o de interfaz gráfica.
+    br
+    br
+    .cont_background4.mt-5.pb-5(style="position:relative")
+      .col-md-6.m-auto(style="position:relative")
+        p.mt-5(data-aos="fade-up" style="border-left:4px #EE296D solid;padding-left:8px;position:relative") #[strong Figura 2 ] #[em Ejemplo suma de dos variables y celdas de comentarios]
+        figure.mt-4(style="position:relative")
+          img(src="@/assets/curso/tema1/23.svg" data-aos="fade-up")
 
-        p.mt-4(data-aos="fade-up") En el siguiente recurso educativo, conocerá los primeros pasos para la ejecución del entorno de trabajo en una de las aplicaciones provistas por Anaconda Navigator denominada JupiterLabs, esta es la aplicación que se estará utilizando en el curso de análisis exploratorio de los datos:
+    Separador
+
+    .titulo-segundo.mt-5
+      h2#t_1_4 1.4  Librerías para el tratamiento y visualización de los datos
+
+    .row
+      .col-md-7
+        p(data-aos="fade-up") Las librerías son un conjunto de instrucciones que ayudan a codificar todo tipo de soluciones, y para el caso del análisis exploratorio de datos, no es la excepción; para este caso, se utilizan una serie de librerías que facilitan el tratamiento y visualización de los datos con muy pocas líneas de código.
+        p.mt-4(data-aos="fade-up") Estas librerías procesan grandes volúmenes de información y generan resultados muy importantes que agilizan el estudio de los datos.
+        .cajon.color-acento-botones.p-4.mt-4
+          p.mb-0(data-aos="fade-up") En el siguiente recurso educativo, conocerá las principales librerías que se trabajarán en este programa de formación, preste mucha atención, pues se explicará la forma correcta de importarlas y ejecutarlas desde los Notebooks:
+      .col-md-5
+        figure
+          img(src="@/assets/curso/tema1/24.svg" data-aos="fade-right")
+
+    .row.mt-5
+      .col-md-5
+        figure
+          img(src="@/assets/curso/tema1/25.svg" data-aos="fade-right")
+      .col-md-7
+        SlyderA.pt-5.pb-5.ps-5.pe-5.cont_slider1(tipo="b")
+          .row
+            p #[strong Librería Pandas:] herramienta creada en Python para la manipulación y visualización de grandes volúmenes de datos. Para la instalación en el Notebook, se debe crear una nueva celda de código e ingresar el comando import pandas as pd. Después, se coloca la palabra as seguida de pd, puede ser cualquier nombre, este debe ser abreviado y hacer referencia al nombre de la librería, por convención se puede  decir que Pandas se utilizará como pd. 
+          .row
+            p #[strong Librería Matplotlib:] Es una librería que permite muy fácilmente generar diversos tipos de gráficos. Para el uso de esta librería, ingrese el siguiente comando: import matplotlib.pyplot as plt.
+          .row
+            p #[strong Librería Seaborn:]  se basa en la librería para la gestión de gráficos Matplolib, se utiliza para la visualización de gráficas más atractivas, igualmente, para los gráficos informativos y estadísticos; para usar esta librería, importe de la siguiente manera: import seaborn as sns.
+          .row
+            p #[strong Librería Numpy:] este conjunto de herramientas es muy útil para trabajar funciones matemáticas, algebraicas y la fácil manipulación de vectores y matrices; para usar esta librería, use: import numpy as np.
+
 
 
 
@@ -141,4 +290,45 @@ export default {
   background-color: #E8E8E8
 .cajon-b.color-primario:before
   background-color: #FDDFE9
+.cont_background2:before
+  content: ''
+  background-image: url(../assets/curso/tema1/10.svg)
+  position: absolute
+  width: 115%
+  height: 60%
+  left: -7%
+  top: 40%
+.cont_background3:before
+  content: ''
+  background-image: url(../assets/curso/tema1/21.svg)
+  position: absolute
+  width: 110%
+  height: 110%
+  left: -7%
+  top: -5%
+.cont_background4:before
+  content: ''
+  background-image: url(../assets/curso/tema1/22.svg)
+  position: absolute
+  width: 115%
+  height: 100%
+  left: -7%
+  top: -25%
+  z-index: 0
+  background-size: 65%
+.cajon.color-acento-botones
+  background-color: #FFECB1
+.cont_slider1
+  background-image: url(../assets/curso/tema1/26.svg)
+  background-repeat: no-repeat
+  background-size: cover
+.slyder-a__bullets__item--active
+  background-color: #E2C140
+  border-color: #E2C140
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #7F4FC7
+  transform: rotate(0deg) !important
+  background-image: url(../assets/template/arrow2.svg) !important
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  transform: rotate(180deg) !important
 </style>
