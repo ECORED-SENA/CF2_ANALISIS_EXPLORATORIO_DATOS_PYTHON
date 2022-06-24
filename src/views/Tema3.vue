@@ -10,7 +10,7 @@
     .row.cont_background3_1(style="position:relative;")
       .col-md-4(style="position:relative")
         figure(style="position:relative")
-          img(src="@/assets/curso/tema3/1.svg" data-aos="fade-right" style="position:relative")
+          img(src="@/assets/curso/tema3/1.png" data-aos="fade-right" style="position:relative")
       .col-md-8(style="position:relative")
         .row(style="position:relative")
           .col(style="position:relative")

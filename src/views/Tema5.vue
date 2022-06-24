@@ -124,7 +124,7 @@
             | Lo más relevante en los valores pagados al seguro se dio en personas que son fumadores
       .col-md-5
         figure
-          img(src="@/assets/curso/tema5/11.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema5/11.png" data-aos="fade-left")
 
 
 

@@ -192,7 +192,7 @@
     .row(style="position:relative;z-index:1;")
       .col-md-5
         figure
-          img(src="@/assets/curso/tema1/19.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema1/19.png" data-aos="fade-right")
       .col-md-7
         .cont_background3(style="position:relative;z-index:1")
           p(data-aos="fade-up" style="position:relative") Para comprender lo visto hasta el momento, replique el siguiente ejemplo, que consiste en capturar dos variables y mostrar como resultado la suma de ellas. Para cada celda donde solicite la variable, realice la operación e incluya una celda de comentario que dé cuenta de lo que se ha realizado o lo que se busca con esa línea.
@@ -230,7 +230,7 @@
     .row.mt-5
       .col-md-5
         figure
-          img(src="@/assets/curso/tema1/25.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema1/25.png" data-aos="fade-right")
       .col-md-7
         SlyderA.pt-5.pb-5.ps-5.pe-5.cont_slider1(tipo="b")
           .row

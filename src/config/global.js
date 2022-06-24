@@ -122,14 +122,7 @@ export default {
         numero: '5',
         titulo: 'Análisis de resultados y conclusiones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Medidas de tendencia central y de dispersión',
-            hash: 't_5_1',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [

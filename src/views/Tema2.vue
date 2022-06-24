@@ -68,7 +68,7 @@
       .row(style="position:relative")
         .col-md-4(style="position:relative")
           figure(style="position:relative")
-            img(src="@/assets/curso/tema2/9.svg" data-aos="fade-right" style="position:relative")
+            img(src="@/assets/curso/tema2/9.png" data-aos="fade-right" style="position:relative")
         .col-md-8(style="position:relative")
           p(data-aos="fade-up" style="position:relative") Al poder responder a preguntas como: ¿qué necesidades tiene la empresa?, ¿hacia dónde va la empresa?, ¿cuáles son sus objetivos?, entre otras, se podrán identificar los parámetros y los procesos necesarios que permitan al analista implementar estrategias efectivas para optimizar el manejo de grandes volúmenes de información, los cuales, la mayoría de las veces, resultan fundamentales para la toma de decisiones estratégicas que favorezcan a la organización.
           p.mt-4(data-aos="fade-up" style="position:relative") Para que el analista de datos pueda desarrollar de la mejor manera su trabajo, es fundamental que cuente con el apoyo del gerente o el analista de negocio, los cuales le darán la información suficiente para comprender al 100% cada uno de los procesos de la empresa; a partir de allí, podrá establecer metodologías adecuadas para la gestión, la organización y el manejo de datos.
@@ -121,7 +121,7 @@
           p.mt-4(data-aos="fade-up" style="position:relative") Desde esta perspectiva, la formulación de las preguntas objetivo del negocio se basará en un conjunto de datos que encontrará en los anexos con el nombre de #[strong(style="color:#34A3ED;") DatosSeguros.csv]. Inicialmente, se plantean las siguientes preguntas, que sirven de base para el análisis de los datos:
         .col-md-4(style="position:relative")
           figure(style="position:relative")
-            img(src="@/assets/curso/tema2/18.svg" data-aos="fade-left" style="position:relative")
+            img(src="@/assets/curso/tema2/18.png" data-aos="fade-left" style="position:relative")
 
       .row.mt-5(style="position:relative")
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
