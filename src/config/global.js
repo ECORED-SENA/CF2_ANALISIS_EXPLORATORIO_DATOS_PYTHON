@@ -5,6 +5,28 @@ export default {
       'Se abordan las herramientas para reconocer el proceso de instalación de la infraestructura y librerías basados en el lenguaje de programación Python, fundamental para el manejo y el análisis exploratorio de los datos.<br><br>Aprenderá a desplegar su propio entorno de trabajo con herramientas modernas Python, a realizar las lecturas de los archivos, manipular la información y generar análisis estadísticos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/imagen1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/imagen2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/imagen3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/imagen4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/imagen5.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

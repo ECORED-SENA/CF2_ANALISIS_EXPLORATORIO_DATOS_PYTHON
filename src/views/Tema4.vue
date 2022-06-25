@@ -8,11 +8,11 @@
       h1 Métodos para el análisis de datos
 
     .row.cont_background4_1(style="position:relative;")
-      .col-md-4(style="position:relative")
+      .col-md-5(style="position:relative;place-self:center;")
         figure(style="position:relative")
           img(src="@/assets/curso/tema4/1.svg" data-aos="fade-right" style="position:relative")
-      .col-md-8(style="position:relative")
-        .row(style="position:relative")
+      .col-md-7(style="position:relative;place-self:center;")
+        .row.mt-4(style="position:relative")
           .col(style="position:relative")
             p(data-aos="fade-up" style="position:relative;color:#34A3ED;font-weight:bold;") Con el análisis exploratorio de datos, es posible comprender y llegar a conclusiones de hipótesis sin tener que centrarse en el desarrollo de complicados algoritmos.
             p.mt-4(data-aos="fade-up" style="position:relative") Dentro de los métodos que se pueden utilizar en el análisis exploratorio, se encuentran los análisis propios de la estadística descriptiva, además de las visualizaciones gráficas, que permiten llegar a conclusiones de manera más fácil y precisa.
@@ -21,7 +21,7 @@
             figure(style="position:relative")
               img(src="@/assets/curso/tema3/2.svg" data-aos="fade-up" style="position:relative")
         .cajon.color-acento-botones.p-4.mt-3(style="position:relative")
-          p.mb-0.text-center(data-aos="fade-up" style="position:relative") Tenga en cuenta que, para los ejercicios que se desarrollarán a continuación, encontrará los documentos necesarios en los anexos del curso.
+          p.mb-0(data-aos="fade-up" style="position:relative") Tenga en cuenta que, para los ejercicios que se desarrollarán a continuación, encontrará los documentos necesarios en los anexos del curso.
 
     Separador
 
@@ -29,7 +29,7 @@
       h2#t_4_1 4.1  Medidas de tendencia central y de dispersión
 
     .row.cont_background4_2(style="position:relative;")
-      .col-md-8(style="position:relative")
+      .col-md-8(style="position:relative;")
         p(data-aos="fade-up" style="position:relative") Las medidas de tendencia central permitirán revisar el comportamiento de los datos desde el punto de vista del análisis estadístico; desde esta perspectiva, se aplicarán los distintos métodos, entre los que se encuentran la media, la moda, la mediana, la desviación estándar y los cuartiles, que ya se han definido en el primer componente formativo.
         .row(style="position:relative")
           .col-auto(style="position:relative")
@@ -39,7 +39,7 @@
             p(data-aos="fade-up" style="position:relative;") Para empezar, se procederá a aplicar los métodos de tendencia central a todos los datos; para tal fin, se debe aplicar el siguiente comando, el cual permitirá obtener el análisis de todas las variables, especificando la media, mediana, valores mínimos y máximos, desviación estándar y cuartiles.
         .cajon.color-acento-botones.p-4.mt-3.col-md-7.m-auto(style="position:relative")
           p.mb-0.text-center(data-aos="fade-up" style="position:relative")  Comando:  df.describe() 
-      .col-md-4(style="position:relative")
+      .col-md-4(style="position:relative;place-self:center;")
         figure(style="position:relative")
           img(src="@/assets/curso/tema4/2.png" data-aos="fade-right" style="position:relative")
 
@@ -73,7 +73,7 @@
         figure(style="position:relative")
           img(src="@/assets/curso/tema4/9.png" data-aos="fade-right" style="position:relative")
       .col-md-8(style="position:relative;place-self:center;")
-        .row(style="position:relative")
+        .row.mt-4(style="position:relative")
           .col-auto(style="position:relative")
             figure(style="position:relative")
               img(src="@/assets/curso/tema4/10.svg" data-aos="fade-up" style="position:relative")
@@ -110,22 +110,21 @@ export default {
   content: ''
   background-image: url(../assets/curso/tema3/3.svg)
   position: absolute
-  width: 78%
-  height: 115%
-  left: 20%
+  width: 91%
+  height: 112%
+  left: 10%
   top: -8%
-  background-repeat: no-repeat
 .cajon.color-acento-botones
   background-color: #FFECB1
 .cont_background4_2:before
   content: ''
   background-image: url(../assets/curso/tema3/3.svg)
   position: absolute
-  width: 80%
+  width: 86%
   height: 85%
-  right: 20%
+  right: 15%
   top: -4%
-  background-repeat: no-repeat
+  transform: rotate(180deg)
 .cont_background4_3:before
   content: ''
   background-image: url(../assets/curso/tema4/4.svg)

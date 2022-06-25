@@ -11,8 +11,8 @@
       .col-md-4(style="position:relative")
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/1.png" data-aos="fade-right" style="position:relative")
-      .col-md-8(style="position:relative")
-        .row(style="position:relative")
+      .col-md-8(style="position:relative;place-self:center;")
+        .row.mt-4(style="position:relative")
           .col(style="position:relative")
             p(data-aos="fade-up" style="position:relative") ¿Pero qué se debe tener en cuenta para comenzar con el análisis de datos? Preste mucha atención, pues a continuación se darán a conocer varias acciones que son necesarias en el momento de estudiar datos, como, por ejemplo, la preparación de la infraestructura, la determinación de los tipos de datos, el ordenamiento de los datos, su agrupamiento, la identificación de datos nulos, de datos duplicados, qué hacer con este tipos de datos, los diferentes formatos utilizados para el análisis,  entre otros.
           .col-auto(style="position:relative")
@@ -31,8 +31,8 @@
             p.mb-0(data-aos="fade-up") Revise en  el siguiente recurso educativo los pasos necesarios para realizar el levantamiento de la información que permita la implementación del análisis de datos exploratorio de datos en Python:
 
     TabsC.color-acento-contenido.mt-5
-      .py-3.py-md-4(titulo="Cree un Notebook" style="background-color:#E0F1FD;")
-        .row.p-5
+      div(titulo="Cree un Notebook" style="background-color:#E0F1FD;")
+        .row.p-2.p-md-5
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema3/4.svg' alt='')
@@ -42,7 +42,7 @@
                   .col-auto
                     figure
                       img(src="@/assets/curso/tema3/7.svg")
-                  .col
+                  .col(style="place-self:center;")
                     p Para crear un entorno de trabajo, siga los siguientes pasos.
                     ul.lista-ul.mt-2
                       li 
@@ -54,8 +54,8 @@
                       li 
                         i.fas.fa-caret-right(style="color:#067EFF;")
                         | Crear un Notebook llamado &nbsp;<em>AnalsisDatos.ipynb</em>.
-      .py-3.py-md-4(titulo="Cree un Notebook" style="background-color:#E0F1FD;")
-        .row.p-5
+      div(titulo="Descargue el archivo" style="background-color:#E0F1FD;")
+        .row.p-2.p-md-5
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema3/5.svg' alt='')
@@ -65,10 +65,10 @@
                   .col-auto
                     figure
                       img(src="@/assets/curso/tema3/7.svg")
-                  .col
+                  .col(style="place-self:center;")
                     p Descargue el archivo denominado: #[strong(style="font-style:italic;") DatosSeguros.csv], que encuentra en los anexos y colóquelo en la misma carpeta donde creó el Notebook.
-      .py-3.py-md-4(titulo="Cree un Notebook" style="background-color:#E0F1FD;")
-        .row.p-5
+      div(titulo="Importe las librerías Pandas" style="background-color:#E0F1FD;")
+        .row.p-2.p-md-5
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema3/6.svg' alt='')
@@ -78,7 +78,7 @@
                   .col-auto
                     figure
                       img(src="@/assets/curso/tema3/7.svg")
-                  .col
+                  .col(style="place-self:center;")
                     p Para importar la librería Pandas que servirá para la lectura del archivo CSV, ejecute el siguiente comando:
                     p.mt-4 #[strong import pandas as pd]
 
@@ -128,8 +128,8 @@
         table
           thead
             tr
-              th.text-center.p-4 Variables categóricas
-              th.text-center.p-4 Variables numéricas
+              th.text-center.p-4(style="font-size:18px;") Variables categóricas
+              th.text-center.p-4(style="font-size:18px;") Variables numéricas
           tbody
             tr.bg-white
               td.text-center.p-4 Sexo (object)
@@ -200,10 +200,11 @@ export default {
   height: 110%
   left: 23%
   top: -8%
-.bloque-texto-a.color-secundario
-  background-color: #F6F6F6
 .bloque-texto-a.color-secundario:before
   background-color: #FDBE41
+  background: linear-gradient(173deg, #fdbe41, #D09F40 122%)
+.bloque-texto-a.color-secundario
+  background-color: #F6F6F6
 .tabs-c__header
   margin-bottom: 0px
 .tabs-c__tab--active span
@@ -216,7 +217,8 @@ export default {
   position: absolute
   width: 78%
   height: 110%
-  right: 20%
+  transform: rotate(180deg)
+  right: 22%
   top: -8%
 .cont_background3_3:before
   content: ''
@@ -227,4 +229,8 @@ export default {
   left: -3%
   top: -20%
   background-repeat: no-repeat
+.tabs-c__tab span
+  font-size: 20px
+.tarjeta-avatar-b .tarjeta
+  place-self: center
 </style>

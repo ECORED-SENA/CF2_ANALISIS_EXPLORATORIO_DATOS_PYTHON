@@ -38,7 +38,7 @@
           figure
             img(src='@/assets/curso/tema2/4.png', alt='' data-aos="fade-left")
         .col-md-7.mb-4.mb-md-0(style="place-self:center;")
-          p(data-aos="fade-right") Identificar la misión y la visión organizacional
+          p.mt-4(data-aos="fade-right") Identificar la misión y la visión organizacional
       .row.p-3
         .col-md-7.mb-4.mb-md-0(style="place-self:center;")
           p(data-aos="fade-right") Identificar y tener claridad respecto de los recursos financieros con los que cuenta la empresa.
@@ -62,7 +62,7 @@
           figure
             img(src='@/assets/curso/tema2/8.png', alt='' data-aos="fade-left")
         .col-md-7.mb-4.mb-md-0(style="place-self:center;")
-          p(data-aos="fade-right") Reconocer cómo está posicionada la empresa frente a la competencia.
+          p.mt-4(data-aos="fade-right") Reconocer cómo está posicionada la empresa frente a la competencia.
 
     .cont_background2_1.mt-5.pb-5(style="position:relative;")
       .row(style="position:relative")
@@ -70,43 +70,43 @@
           figure(style="position:relative")
             img(src="@/assets/curso/tema2/9.png" data-aos="fade-right" style="position:relative")
         .col-md-8(style="position:relative")
-          p(data-aos="fade-up" style="position:relative") Al poder responder a preguntas como: ¿qué necesidades tiene la empresa?, ¿hacia dónde va la empresa?, ¿cuáles son sus objetivos?, entre otras, se podrán identificar los parámetros y los procesos necesarios que permitan al analista implementar estrategias efectivas para optimizar el manejo de grandes volúmenes de información, los cuales, la mayoría de las veces, resultan fundamentales para la toma de decisiones estratégicas que favorezcan a la organización.
+          p.mt-4(data-aos="fade-up" style="position:relative") Al poder responder a preguntas como: ¿qué necesidades tiene la empresa?, ¿hacia dónde va la empresa?, ¿cuáles son sus objetivos?, entre otras, se podrán identificar los parámetros y los procesos necesarios que permitan al analista implementar estrategias efectivas para optimizar el manejo de grandes volúmenes de información, los cuales, la mayoría de las veces, resultan fundamentales para la toma de decisiones estratégicas que favorezcan a la organización.
           p.mt-4(data-aos="fade-up" style="position:relative") Para que el analista de datos pueda desarrollar de la mejor manera su trabajo, es fundamental que cuente con el apoyo del gerente o el analista de negocio, los cuales le darán la información suficiente para comprender al 100% cada uno de los procesos de la empresa; a partir de allí, podrá establecer metodologías adecuadas para la gestión, la organización y el manejo de datos.
       .cajon.color-acento-botones.p-4.mt-5(style="position:relative")
         p.mb-0(data-aos="fade-up" style="position:relative") Por otro lado, es importante tener en cuenta que los análisis de datos no siempre pueden estar enmarcados hacia un solo objetivo, estos puede implementarse con el fin de llevar a la organización hacia:
 
       SlyderF.mt-5(columnas="col-lg-3 col-xl-3" style="position:relative")
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/11.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") La búsqueda de nueva información.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/12.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") El mejoramiento de los procesos productivos.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/13.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") La identificación de problemas que puedan estar afectando el óptimo desarrollo de la organización.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/14.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") La implementación de estrategias para descartar o aprobar hipótesis.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/15.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") La creación de nuevas líneas de negocio.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/16.svg" style="display:inline;max-width:100px;position:relative")
             p.mt-4.text-center(style="position:relative") El análisis de la competencia.
-        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;")
+        .tarjeta.color-acento-botones.p-4(style="position:relative;background-color:white;box-shadow:0px 0px 10px #d6d6d6;height:300px;margin-bottom:10px;")
           .row.justify-content-center.mb-3(style="position:relative")
             figure.text-center(style="position:relative")
               img(src="@/assets/curso/tema2/17.svg" style="display:inline;max-width:100px;position:relative")
@@ -129,21 +129,21 @@
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img(src='@/assets/curso/tema2/20.svg', alt='' style="position:relative")
+                  img.img_ridicula(src='@/assets/curso/tema2/20.svg', alt='' style="position:relative")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Las personas fumadoras representan el mayor potencial para ventas de seguros?
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
           .tarjeta--boton.color-primario.p-4(style="position:relative;height:100%;")
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img(src='@/assets/curso/tema2/21.svg', alt='' style="position:relative")
+                  img.img_ridicula(src='@/assets/curso/tema2/21.svg', alt='' style="position:relative")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Cuál es la edad poblacional en la que se debe concentrar la estrategia comercial teniendo en cuenta el mayor ingreso?
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
           .tarjeta--boton.color-primario.p-4(style="position:relative;height:100%;")
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img(src='@/assets/curso/tema2/22.svg', alt='' style="position:relative")
+                  img.img_ridicula(src='@/assets/curso/tema2/22.svg', alt='' style="position:relative")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Cuál es la región con mayor potencial de venta de seguros teniendo en cuenta los ingresos?
 
       .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5.col-md-10.m-auto(style="position:relative")
@@ -184,7 +184,7 @@ export default {
   background-color: #F6F6F6
 .bloque-texto-a.color-secundario:before
   background-color: #FDBE41
-  background: linear-gradient(173deg, #fdbe41, #bbbbbb 122%)
+  background: linear-gradient(173deg, #fdbe41, #D09F40 122%)
 .pasos-a.color-primario .pasos-a__circle
   background-color: #EE296D
 .pasos-a.color-primario .pasos-a__circle div
@@ -225,4 +225,7 @@ export default {
   background-color: #116EB9
 .tarjeta--boton.color-primario:active p, .tarjeta--boton.color-primario:focus p, .tarjeta--boton.color-primario:hover p
   color: #12263F !important
+.img_ridicula:before
+  content: ''
+  position: absolute
 </style>

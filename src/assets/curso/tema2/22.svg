@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170.484" height="170.484" viewBox="0 0 170.484 170.484">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fdbe41"/>
-      <stop offset="1" stop-color="#d09f40"/>
-    </linearGradient>
     <filter id="Trazado_150707" x="0" y="0" width="170.484" height="170.484" filterUnits="userSpaceOnUse">
       <feOffset dx="5" dy="5" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="12.5" result="blur"/>
@@ -12,13 +8,11 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_172652" data-name="Grupo 172652" transform="translate(19.579 19.578)">
-    <path id="Trazado_150705" data-name="Trazado 150705" d="M121.116,55.633A60.661,60.661,0,1,1,55.633.212a60.661,60.661,0,0,1,65.483,55.42" transform="translate(0 121.328) rotate(-90)" fill="#60a2d8"/>
-    <path id="Trazado_150706" data-name="Trazado 150706" d="M121.116,55.633A60.661,60.661,0,1,1,55.633.212a60.661,60.661,0,0,1,65.483,55.42" transform="translate(0 121.328) rotate(-90)" fill="url(#linear-gradient)"/>
-    <g transform="matrix(1, 0, 0, 1, -19.58, -19.58)" filter="url(#Trazado_150707)">
+  <g id="Grupo_173276" data-name="Grupo 173276" transform="translate(-1134.815 -3683.83)">
+    <g transform="matrix(1, 0, 0, 1, 1134.81, 3683.83)" filter="url(#Trazado_150707)">
       <path id="Trazado_150707-2" data-name="Trazado 150707" d="M95.3,43.6A47.739,47.739,0,1,1,43.6.183,47.739,47.739,0,0,1,95.3,43.6" transform="translate(32.5 127.98) rotate(-90)" fill="#fff"/>
     </g>
-    <g id="dinero" transform="translate(29.363 30.183)">
+    <g id="dinero" transform="translate(1183.756 3733.591)">
       <path id="Trazado_213493" data-name="Trazado 213493" d="M300.925,188l-3.614,3.614-9.965,7.2-1.762-1.762.036-.045a4.969,4.969,0,1,0-5.458-5.393l-.009.009-3.17-3.171,12.2-12.2Z" transform="translate(-243.425 -157.288)" fill="#03aa6f"/>
       <path id="Trazado_213494" data-name="Trazado 213494" d="M57.5,322.563,38.528,338.824H33.108L15.943,332.5H4.2v-9.938H15.943l.632-.271,3.885-1.662,1.807-.777H36.721v5.421H25.88l11.745,5.42,6.3-4.544,9.965-7.2Z" transform="translate(0 -284.619)" fill="#f5d0c7"/>
       <path id="Trazado_213495" data-name="Trazado 213495" d="M316.374,281.7a4.963,4.963,0,0,1-4.463,4.942l-.036.045-4.987-4.987-.443-.443.009-.009a4.969,4.969,0,0,1,9.92.452Z" transform="translate(-269.715 -246.92)" fill="#79dca0"/>
