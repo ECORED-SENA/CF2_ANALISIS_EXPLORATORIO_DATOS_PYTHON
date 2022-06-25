@@ -125,25 +125,28 @@
 
       .row.mt-5(style="position:relative")
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
-          .tarjeta--boton.color-primario.p-4(style="position:relative;height:100%;")
+          .tarjeta--boton.color-primario.p-4#cajon_ridiculo1(style="position:relative;height:100%;")
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img.img_ridicula(src='@/assets/curso/tema2/20.svg', alt='' style="position:relative")
+                  img.img_ridicula1(src='@/assets/curso/tema2/20.svg', alt='' style="position:relative")
+                  img.img_ridicula2(src='@/assets/curso/tema2/21.svg', alt='' style="position:relative;display:none;")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Las personas fumadoras representan el mayor potencial para ventas de seguros?
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
-          .tarjeta--boton.color-primario.p-4(style="position:relative;height:100%;")
+          .tarjeta--boton.color-primario.p-4#cajon_ridiculo2(style="position:relative;height:100%;")
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img.img_ridicula(src='@/assets/curso/tema2/21.svg', alt='' style="position:relative")
+                  img.img_ridicula1(src='@/assets/curso/tema2/22.svg', alt='' style="position:relative")
+                  img.img_ridicula2(src='@/assets/curso/tema2/23.svg', alt='' style="position:relative;display:none;")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Cuál es la edad poblacional en la que se debe concentrar la estrategia comercial teniendo en cuenta el mayor ingreso?
         .col-sm-6.col-md-4.mb-4.mb-lg-0(style="position:relative")
-          .tarjeta--boton.color-primario.p-4(style="position:relative;height:100%;")
+          .tarjeta--boton.color-primario.p-4#cajon_ridiculo3(style="position:relative;height:100%;")
             .row.justify-content-center.mb-2(style="position:relative")
               .col-7(style="position:relative")
                 figure(style="position:relative")
-                  img.img_ridicula(src='@/assets/curso/tema2/22.svg', alt='' style="position:relative")
+                  img.img_ridicula1(src='@/assets/curso/tema2/24.svg', alt='' style="position:relative")
+                  img.img_ridicula2(src='@/assets/curso/tema2/25.svg', alt='' style="position:relative;display:none;")
             p.text-center(style="font-weight:bold;position:relative;color:white;") ¿Cuál es la región con mayor potencial de venta de seguros teniendo en cuenta los ingresos?
 
       .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5.col-md-10.m-auto(style="position:relative")
@@ -162,6 +165,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   name: 'Tema2',
   components: {},
@@ -173,6 +177,36 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    $('#cajon_ridiculo1').hover(
+      function() {
+        $('#cajon_ridiculo1 .img_ridicula1').hide()
+        $('#cajon_ridiculo1 .img_ridicula2').show()
+      },
+      function() {
+        $('#cajon_ridiculo1 .img_ridicula1').show()
+        $('#cajon_ridiculo1 .img_ridicula2').hide()
+      },
+    )
+    $('#cajon_ridiculo2').hover(
+      function() {
+        $('#cajon_ridiculo2 .img_ridicula1').hide()
+        $('#cajon_ridiculo2 .img_ridicula2').show()
+      },
+      function() {
+        $('#cajon_ridiculo2 .img_ridicula1').show()
+        $('#cajon_ridiculo2 .img_ridicula2').hide()
+      },
+    )
+    $('#cajon_ridiculo3').hover(
+      function() {
+        $('#cajon_ridiculo3 .img_ridicula1').hide()
+        $('#cajon_ridiculo3 .img_ridicula2').show()
+      },
+      function() {
+        $('#cajon_ridiculo3 .img_ridicula1').show()
+        $('#cajon_ridiculo3 .img_ridicula2').hide()
+      },
+    )
   },
   updated() {
     this.$aosRefresh()
@@ -225,7 +259,4 @@ export default {
   background-color: #116EB9
 .tarjeta--boton.color-primario:active p, .tarjeta--boton.color-primario:focus p, .tarjeta--boton.color-primario:hover p
   color: #12263F !important
-.img_ridicula:before
-  content: ''
-  position: absolute
 </style>
