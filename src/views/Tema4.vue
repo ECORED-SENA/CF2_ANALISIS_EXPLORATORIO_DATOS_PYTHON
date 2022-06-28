@@ -120,9 +120,9 @@ export default {
   content: ''
   background-image: url(../assets/curso/tema3/3.svg)
   position: absolute
-  width: 86%
+  width: 88%
   height: 85%
-  right: 15%
+  right: 14%
   top: -4%
   transform: rotate(180deg)
 .cont_background4_3:before

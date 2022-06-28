@@ -97,7 +97,7 @@
 
       .tarjeta.tarjeta--gris.p-5.mt-5(style="background-color: rgba(52,163,237,0.1)")
         LineaTiempoC.color-acento-contenido(text-small style="position:relative")
-          .row(titulo="1" style="position:relative")
+          .row.col-md-10.m-auto(titulo="1" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Abrir Anaconda Navigator
               p(style="position:relative") Para el software Anaconda Navigator, diríjase a la barra de búsqueda de su computador y escriba #[strong(style="color:#BE2057;") Anaconda Navigator]; en la medida que empiece a escribir, se irán filtrando las aplicaciones; seleccione el ícono que se identifica como aplicación de #[strong(style="color:#BE2057;") Anaconda Navigator], como se muestra en la imagen.
@@ -105,7 +105,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/11.svg', alt='' style="position:relative")
 
-          .row(titulo="2" style="position:relative")
+          .row.col-md-10.m-auto(titulo="2" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Seleccione la herramienta JupiterLab
               p(style="position:relative") Cuando se abre la Anaconda Navigator, usted podrá observar múltiples herramientas para el manejo de proyectos en Python; para este caso, la herramienta a utilizar será JupiterLab, para usar esta aplicación, selecciona la herramienta dando clic en el botón Launch.
@@ -113,7 +113,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/12.svg', alt='' style="position:relative")
 
-          .row(titulo="3" style="position:relative")
+          .row.col-md-10.m-auto(titulo="3" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Haga clic sobre el botón Launch
               p(style="position:relative") Allí se desprende el entorno de trabajo que se muestra en la imagen. Al lado izquierdo, encontrará las carpetas necesarias para  guardar cada uno de sus archivos; al lado derecho, aparece el tipo de aplicación que se utilizará; para este caso, el curso está basado en la creación de Notebooks.
@@ -121,7 +121,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/13.svg', alt='' style="position:relative")
 
-          .row(titulo="4" style="position:relative")
+          .row.col-md-10.m-auto(titulo="4" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Creación de #[em Notebooks]
               p(style="position:relative") Para crear los #[em Notebooks], seleccione la primera opción de la derecha, tal como se muestra en la imagen; en el panel izquierdo, puede seleccionar la carpeta donde  va a guardar los #[em Notebooks].
@@ -129,7 +129,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/14.svg', alt='' style="position:relative")
 
-          .row(titulo="5" style="position:relative")
+          .row.col-md-10.m-auto(titulo="5" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Extensión. ipynb
               p(style="position:relative") Los #[em Notebooks] tienen la extensión .ipynb, y el entorno de trabajo se puede apreciar en la imagen.
@@ -137,7 +137,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/15.svg', alt='' style="position:relative")
 
-          .row(titulo="6" style="position:relative")
+          .row.col-md-10.m-auto(titulo="6" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative")  Celdas en los #[em Notebooks]
               p(style="position:relative") En la siguiente imagen, se representan los tres tipos de celdas que se utilizan en los Notebooks: la primera línea es un comentario, como se aprecia en la imagen: “Mi Primer Programa”,  esta sirve para llevar la documentación del archivo; la siguiente línea: print (“Hola Mundo”), ejecuta la línea de comando del lenguaje Python.
@@ -146,7 +146,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/16.svg', alt='' style="position:relative")
 
-          .row(titulo="7" style="position:relative")
+          .row.col-md-10.m-auto(titulo="7" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Herramientas del archivo Notebook
               p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo Notebook, y que ayuda al desarrollo del proyecto.
@@ -173,7 +173,7 @@
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/17.svg', alt='' style="position:relative")
 
-          .row(titulo="8" style="position:relative")
+          .row.col-md-10.m-auto(titulo="8" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Herramientas del archivo Notebook
               p(style="position:relative") En la parte superior derecha, está la lista de opciones para indicar si una línea es de código o de comentario; como se aprecia en la siguiente imagen, se pueden seleccionar tres opciones:

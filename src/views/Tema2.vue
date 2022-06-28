@@ -50,7 +50,7 @@
           figure
             img(src='@/assets/curso/tema2/6.png', alt='' data-aos="fade-left")
         .col-md-7.mb-4.mb-md-0(style="place-self:center;")
-          p(data-aos="fade-right") Reconocer cada uno de los recursos tecnológicos con los que cuenta la organización.
+          p.mt-3(data-aos="fade-right") Reconocer cada uno de los recursos tecnológicos con los que cuenta la organización.
       .row.p-3
         .col-md-7.mb-4.mb-md-0(style="place-self:center;")
           p(data-aos="fade-right") Identificar las características de los productos y servicios que ofrece la organización.
