@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p(data-aos="fade-up") Bienvenido a este componente formativo denominado “Recursos y herramientas para el análisis efectivo de datos”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se propone a continuación:
+    p(data-aos="fade-up") Bienvenido a este componente formativo denominado “Recursos y herramientas para el análisis efectivo de datos”. Para comenzar el recorrido por el mismo, veamos el siguiente video:
 
     figure.mt-5
       .video

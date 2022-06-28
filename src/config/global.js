@@ -1,6 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Análisis exploratorio de datos en Python.',
+    componenteFormativo:
+      'Recursos y herramientas para el análisis efectivo de datos.',
     descripcionCurso:
       'Se abordan las herramientas para reconocer el proceso de instalación de la infraestructura y librerías basados en el lenguaje de programación Python, fundamental para el manejo y el análisis exploratorio de los datos.<br><br>Aprenderá a desplegar su propio entorno de trabajo con herramientas modernas Python, a realizar las lecturas de los archivos, manipular la información y generar análisis estadísticos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -94,7 +95,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Instalación Anaconda',
+            titulo: 'Prepare la infraestructura',
             hash: 't_3_1',
           },
           {
@@ -112,7 +113,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Identificación de los datos',
+            titulo: 'Manipulando los datos',
             hash: 't_3_4',
           },
         ],
@@ -288,49 +289,105 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ronald Alexander Vacca Ascanio',
+        cargo: 'Experto Temático',
+        centro: 'Centro De Diseño Metrología - Regional Distrito Capital. ',
+      },
+      {
+        nombre: 'Jeimy Lorena Romero Perilla',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro: 'Centro De Diseño Metrología - Regional Distrito Capital.',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro De Diseño Metrología - Regional Distrito Capital.',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo diseño y desarrollo de RED',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
+        nombre: 'Anllelo Andres Reina Montañez',
+        cargo: 'Diseño Web',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        nombre: 'Daniel Ricardo Mutis Gómez',
+        cargo: 'Validación Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesús Perez Madariaga',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Andrea Paola Botello De La Rosa',
+        cargo: 'Validación Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Luis Gabriel Urueta',
+        cargo: 'Desarrollo actividades didácticas',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Bolaño',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Mesa',
+        cargo: 'Storyboard y gráficos',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo',
+        cargo: 'Animación 2d',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Junior Rodriguez',
+        cargo: 'Validación producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Responsable equipo gestión de repositorio',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
@@ -338,11 +395,6 @@ export default {
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

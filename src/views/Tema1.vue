@@ -5,17 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Alistamiento y convocatoria según las necesidades de personal
+      h1 Implementación de la infraestructura tecnológica para el tratamiento de datos.
 
     .cont_background1.pb-5(style="position:relative;")
-      p(data-aos="fade-up") Bienvenido a este componente formativo denominado “Recursos y herramientas para el análisis efectivo de datos”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se propone a continuación:
+      p(data-aos="fade-up") Para empezar con la instalación de las herramientas tecnológicas que permitan el despliegue del lenguaje de programación Python, es importante que valide los requerimientos técnicos con los que se debe contar, entre los que están:
 
       p.mt-5(data-aos="fade-up" style="border-left:4px #EE296D solid;padding-left:8px;position:relative") #[strong Figura 1 ] #[em Requerimientos técnicos]
 
       figure.mt-5(style="position:relative")
         img(src="@/assets/curso/tema1/3.svg" data-aos="fade-up" style="position:relative")
 
-      p.mt-5(data-aos="fade-up" style="position:relative") Por otro lado, las instalaciones necesarias que se deben ejecutar para desarrollar el análisis de datos exploratorio las puede encontrar a detalle en el siguiente recurso educativo:
+      p.mt-5(data-aos="fade-up" style="position:relative") Por otro lado, las instalaciones necesarias que se deben ejecutar para desarrollar el análisis de datos exploratorio las puede encontrar a continuación:
 
       TabsA.color-acento-botones.mt-5(style="position:relative")
         .tarjeta.color-acento-botones--borde.p-4(titulo="Python" style="position:relative")
@@ -52,7 +52,7 @@
             .col-md-8(style="position:relative")
               p Es una herramienta que permite la creación de diferentes celdas, necesarias para el desarrollo del código en Python; entre dichas celdas, se encuentran:
               p.mt-4(style="position:relative") #[strong Celdas para realizar comentarios:] se utilizan para documentar las líneas de código y ayudan como guía para el desarrollador del proyecto.
-              p.mt-4(style="position:relative") #[strong Celdas para ingresar líneas de código Python:] permite ingresar códigos que son interpretados por el lenguaje de programación Python. 
+              p.mt-4(style="position:relative") #[strong Celdas para ingresar líneas de código Python:] permite ingresar códigos que son interpretados por el lenguaje de programación Python.
               p.mt-4(style="position:relative") #[strong Celdas con los resultados obtenidos:] permiten visualizar las variables, tablas, gráficos, entre otros, del proceso que se realiza en las celdas de ingreso de código.
             .col-md-4(style="place-self:center;position:relative")
               figure(style="position:relative")
@@ -124,7 +124,7 @@
           .row(titulo="4" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Creación de #[em Notebooks]
-              p(style="position:relative") Para crear los #[em Notebooks], seleccione la primera opción de la derecha, tal como se muestra en la imagen; en el panel izquierdo, puede seleccionar la carpeta donde  va a guardar los #[em Notebooks].  
+              p(style="position:relative") Para crear los #[em Notebooks], seleccione la primera opción de la derecha, tal como se muestra en la imagen; en el panel izquierdo, puede seleccionar la carpeta donde  va a guardar los #[em Notebooks].
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/14.svg', alt='' style="position:relative")
@@ -132,7 +132,7 @@
           .row(titulo="5" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Extensión. ipynb
-              p(style="position:relative") Los #[em Notebooks] tienen la extensión .ipynb, y el entorno de trabajo se puede apreciar en la imagen.  
+              p(style="position:relative") Los #[em Notebooks] tienen la extensión .ipynb, y el entorno de trabajo se puede apreciar en la imagen.
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/15.svg', alt='' style="position:relative")
@@ -149,24 +149,24 @@
           .row(titulo="7" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Herramientas del archivo Notebook
-              p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo Notebook, y que ayuda al desarrollo del proyecto. 
+              p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo Notebook, y que ayuda al desarrollo del proyecto.
               ul.lista-ul.mt-2
-                li 
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Para guardar el Notebook, utilice el primer ícono en forma de disquete.
-                li 
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Cada vez que se requiere adicionar una nueva línea, ya sea de comentario o de código, se utiliza el ícono con el signo +.
-                li 
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
-                  | El ícono de las tijeras elimina las líneas de código. 
-                li 
+                  | El ícono de las tijeras elimina las líneas de código.
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Las líneas se ejecutan de manera independiente con el ícono de forma triangular.
-                li 
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Para pausar o detener el proceso, el ícono indicado es el cuadrado al lado del triángulo.
-                li 
+                li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | La flecha en forma circular se utiliza para reiniciar el programa desde la primera línea.
             .col-md-5(style="position:relative")
@@ -234,7 +234,7 @@
       .col-md-7
         SlyderA.pt-5.pb-5.ps-5.pe-5.cont_slider1.mt-4(tipo="b")
           .row
-            p #[strong Librería Pandas:] herramienta creada en Python para la manipulación y visualización de grandes volúmenes de datos. Para la instalación en el Notebook, se debe crear una nueva celda de código e ingresar el comando import pandas as pd. Después, se coloca la palabra as seguida de pd, puede ser cualquier nombre, este debe ser abreviado y hacer referencia al nombre de la librería, por convención se puede  decir que Pandas se utilizará como pd. 
+            p #[strong Librería Pandas:] herramienta creada en Python para la manipulación y visualización de grandes volúmenes de datos. Para la instalación en el Notebook, se debe crear una nueva celda de código e ingresar el comando import pandas as pd. Después, se coloca la palabra as seguida de pd, puede ser cualquier nombre, este debe ser abreviado y hacer referencia al nombre de la librería, por convención se puede  decir que Pandas se utilizará como pd.
           .row
             p #[strong Librería Matplotlib:] Es una librería que permite muy fácilmente generar diversos tipos de gráficos. Para el uso de esta librería, ingrese el siguiente comando: import matplotlib.pyplot as plt.
           .row
@@ -245,7 +245,7 @@
 
 
 
-      
+
 </template>
 
 <script>

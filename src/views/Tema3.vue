@@ -22,7 +22,7 @@
     Separador
 
     .titulo-segundo.mt-5
-      h2#t_3_1 3.1  Instalación Anaconda
+      h2#t_3_1 3.1  Prepare la infraestructura
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5.col-md-10.m-auto
       .row.m-0.align-items-center.justify-content-between
@@ -45,13 +45,13 @@
                   .col(style="place-self:center;")
                     p Para crear un entorno de trabajo, siga los siguientes pasos.
                     ul.lista-ul.mt-2
-                      li 
+                      li
                         i.fas.fa-caret-right(style="color:#067EFF;")
                         | Inicie Anaconda Navigator.
-                      li 
+                      li
                         i.fas.fa-caret-right(style="color:#067EFF;")
                         | Seleccione la aplicación JupiterLabs.
-                      li 
+                      li
                         i.fas.fa-caret-right(style="color:#067EFF;")
                         | Crear un Notebook llamado &nbsp;<em>AnalsisDatos.ipynb</em>.
       div(titulo="Descargue el archivo" style="background-color:#E0F1FD;")
@@ -117,7 +117,7 @@
             p(data-aos="fade-up" style="position:relative") Después de la lectura de los datos dentro del archivo de texto en formato CSV, que se encuentran almacenados ahora en la variable df, se debe aplicar el siguiente comando para obtener información de los datos:
             .cajon.color-acento-botones.p-4.mt-3.col-md-9.m-auto(style="position:relative")
               p.mb-0.text-center(data-aos="fade-up" style="position:relative") #[strong df.info()]
-        p.mt-4(data-aos="fade-up" style="position:relative") En la #[strong(style="color:#34A3ED;") tabla 1], se identifican los campos obtenidos en la colección de datos clasificados en categóricos y numéricos. 
+        p.mt-4(data-aos="fade-up" style="position:relative") En la #[strong(style="color:#34A3ED;") tabla 1], se identifican los campos obtenidos en la colección de datos clasificados en categóricos y numéricos.
       .col-md-4(style="position:relative")
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/10.png" data-aos="fade-right" style="position:relative")
@@ -155,7 +155,7 @@
     Separador
 
     .titulo-segundo.mt-5
-      h2#t_3_4 3.4  Identificación de los datos
+      h2#t_3_4 3.4  Manipulando los datos
 
     .row
       .col-auto
@@ -170,7 +170,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nIHKG1B9hQY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-      
+
 </template>
 
 <script>
