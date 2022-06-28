@@ -33,7 +33,7 @@
           .row.mt-4(style="position:relative")
             .col-md-8(style="position:relative")
               p Es una distribución del lenguaje de programación que permite utilizar con mayor facilidad el lenguaje Python. Para este caso, se hará uso de la interfaz gráfica, aunque también se puede trabajar en modo consola.
-              p.mt-4(style="position:relative") Para las implementaciones de interfaz gráfica, se utilizan los llamados JUPITER, los cuales vienen con la implementación de Anaconda, de manera que facilitan la gestión de Notebooks (libros que permiten ejecutar líneas de código del lenguaje  de manera gráfica, lo que establece un ambiente más intuitivo para al usuario).
+              p.mt-4(style="position:relative") Para las implementaciones de interfaz gráfica, se utilizan los llamados JUPITER, los cuales vienen con la implementación de Anaconda, de manera que facilitan la gestión de #[em Notebooks] (libros que permiten ejecutar líneas de código del lenguaje  de manera gráfica, lo que establece un ambiente más intuitivo para al usuario).
             .col-md-4(style="place-self:center;position:relative")
               figure(style="position:relative")
                 img(src="@/assets/curso/tema1/5.svg" style="position:relative")
@@ -41,13 +41,13 @@
           h3(style="position:relative") JupiterLabs
           .row.mt-4(style="position:relative")
             .col-md-8(style="position:relative")
-              p Esta aplicación permite la creación de archivos denominados Notebooks, para la ejecución y visualización de códigos Python.
+              p Esta aplicación permite la creación de archivos denominados #[em Notebooks], para la ejecución y visualización de códigos Python.
               p.mt-4(style="position:relative") Esta aplicación es compatible  con código en tiempo real, ecuaciones matemáticas, visualización y Markdown. Sus usos incluyen limpieza y conversión de datos, simulación numérica, modelado estadístico y máquinas.
             .col-md-4(style="place-self:center;position:relative")
               figure(style="position:relative")
                 img(src="@/assets/curso/tema1/6.svg" style="position:relative")
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Notebooks" style="position:relative")
-          h3(style="position:relative") Notebooks
+        .tarjeta.color-acento-botones--borde.p-4(titulo="<em>Notebooks</em>" style="position:relative")
+          h3(style="position:relative") #[em Notebooks]
           .row.mt-4(style="position:relative")
             .col-md-8(style="position:relative")
               p Es una herramienta que permite la creación de diferentes celdas, necesarias para el desarrollo del código en Python; entre dichas celdas, se encuentran:
@@ -64,7 +64,7 @@
       h2#t_1_1 1.1 Instalación Anaconda
 
     .cajon-b.color-primario.pt-2.ps-2
-      p.mb-0(data-aos="fade-up") Anaconda es una distribución de Python que trae consigo múltiples aplicaciones que permiten la implementación de diversos proyectos, ya sea a nivel de consola o a través de interfaz gráfica; este es un software de uso gratuito, que se puede descargar a través de su página oficial.
+      p.mb-0(data-aos="fade-up") Anaconda es una distribución de Python que trae consigo múltiples aplicaciones que permiten la implementación de diversos proyectos, ya sea a nivel de consola o a través de interfaz gráfica; este es un #[em software] de uso gratuito, que se puede descargar a través de su página oficial.
         br
         br
         | Para conocer el proceso de instalación, revise con atención el siguiente recurso educativo.
@@ -91,7 +91,7 @@
             .col(style="position:relative;place-self:center;")
               p(data-aos="fade-up" style="position:relative") Una vez realizada la instalación correctamente, se recomienda reiniciar el computador, para que todas las herramientas terminen su proceso de configuración y se pueda empezar a trabajar en la aplicación que provee esta distribución.
 
-          p.mt-4(data-aos="fade-up" style="position:relative") Después de haber realizado la instalación, ingrese en la barra de búsqueda las palabras Anaconda Navigator, y seleccione el ícono correspondiente que indica la aplicación; esta distribución de software incorpora varias aplicaciones que permiten ejecutar código del lenguaje de programación Python, las cuales pueden usarse en modo consola o de interfaz gráfica.
+          p.mt-4(data-aos="fade-up" style="position:relative") Después de haber realizado la instalación, ingrese en la barra de búsqueda las palabras Anaconda Navigator, y seleccione el ícono correspondiente que indica la aplicación; esta distribución de #[em software] incorpora varias aplicaciones que permiten ejecutar código del lenguaje de programación Python, las cuales pueden usarse en modo consola o de interfaz gráfica.
 
           p.mt-4(data-aos="fade-up" style="position:relative") En el siguiente recurso educativo, conocerá los primeros pasos para la ejecución del entorno de trabajo en una de las aplicaciones provistas por Anaconda Navigator denominada JupiterLabs, esta es la aplicación que se estará utilizando en el curso de análisis exploratorio de los datos:
 
@@ -100,7 +100,7 @@
           .row.col-md-10.m-auto(titulo="1" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Abrir Anaconda Navigator
-              p(style="position:relative") Para el software Anaconda Navigator, diríjase a la barra de búsqueda de su computador y escriba #[strong(style="color:#BE2057;") Anaconda Navigator]; en la medida que empiece a escribir, se irán filtrando las aplicaciones; seleccione el ícono que se identifica como aplicación de #[strong(style="color:#BE2057;") Anaconda Navigator], como se muestra en la imagen.
+              p(style="position:relative") Para el #[em software] Anaconda Navigator, diríjase a la barra de búsqueda de su computador y escriba #[strong(style="color:#BE2057;") Anaconda Navigator]; en la medida que empiece a escribir, se irán filtrando las aplicaciones; seleccione el ícono que se identifica como aplicación de #[strong(style="color:#BE2057;") Anaconda Navigator], como se muestra en la imagen.
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/11.svg', alt='' style="position:relative")
@@ -108,15 +108,15 @@
           .row.col-md-10.m-auto(titulo="2" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Seleccione la herramienta JupiterLab
-              p(style="position:relative") Cuando se abre la Anaconda Navigator, usted podrá observar múltiples herramientas para el manejo de proyectos en Python; para este caso, la herramienta a utilizar será JupiterLab, para usar esta aplicación, selecciona la herramienta dando clic en el botón Launch.
+              p(style="position:relative") Cuando se abre la Anaconda Navigator, usted podrá observar múltiples herramientas para el manejo de proyectos en Python; para este caso, la herramienta a utilizar será JupiterLab, para usar esta aplicación, selecciona la herramienta dando clic en el botón #[em Launch].
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/12.svg', alt='' style="position:relative")
 
           .row.col-md-10.m-auto(titulo="3" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
-              h4(style="position:relative") Haga clic sobre el botón Launch
-              p(style="position:relative") Allí se desprende el entorno de trabajo que se muestra en la imagen. Al lado izquierdo, encontrará las carpetas necesarias para  guardar cada uno de sus archivos; al lado derecho, aparece el tipo de aplicación que se utilizará; para este caso, el curso está basado en la creación de Notebooks.
+              h4(style="position:relative") Haga clic sobre el botón #[em Launch]
+              p(style="position:relative") Allí se desprende el entorno de trabajo que se muestra en la imagen. Al lado izquierdo, encontrará las carpetas necesarias para  guardar cada uno de sus archivos; al lado derecho, aparece el tipo de aplicación que se utilizará; para este caso, el curso está basado en la creación de #[em Notebooks].
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/13.svg', alt='' style="position:relative")
@@ -131,7 +131,7 @@
 
           .row.col-md-10.m-auto(titulo="5" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
-              h4(style="position:relative") Extensión. ipynb
+              h4(style="position:relative") Extensión .ipynb
               p(style="position:relative") Los #[em Notebooks] tienen la extensión .ipynb, y el entorno de trabajo se puede apreciar en la imagen.
             .col-md-5(style="position:relative")
               figure(style="position:relative")
@@ -140,7 +140,7 @@
           .row.col-md-10.m-auto(titulo="6" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative")  Celdas en los #[em Notebooks]
-              p(style="position:relative") En la siguiente imagen, se representan los tres tipos de celdas que se utilizan en los Notebooks: la primera línea es un comentario, como se aprecia en la imagen: “Mi Primer Programa”,  esta sirve para llevar la documentación del archivo; la siguiente línea: print (“Hola Mundo”), ejecuta la línea de comando del lenguaje Python.
+              p(style="position:relative") En la siguiente imagen, se representan los tres tipos de celdas que se utilizan en los #[em Notebooks]: la primera línea es un comentario, como se aprecia en la imagen: “Mi Primer Programa”,  esta sirve para llevar la documentación del archivo; la siguiente línea: print (“Hola Mundo”), ejecuta la línea de comando del lenguaje Python.
               p.mt-4 Finalmente, la tercera línea muestra los resultados, en este caso, el texto “hola mundo”, estos datos también pueden ser numéricos, tablas, gráficos, entre otros.
             .col-md-5(style="position:relative")
               figure(style="position:relative")
@@ -177,9 +177,9 @@
             .col-md-7.mb-4.mb-md-0(style="position:relative")
               h4(style="position:relative") Herramientas del archivo Notebook
               p(style="position:relative") En la parte superior derecha, está la lista de opciones para indicar si una línea es de código o de comentario; como se aprecia en la siguiente imagen, se pueden seleccionar tres opciones:
-              p.mt-4 #[strong Code:] líneas de código que son interpretadas por el lenguaje de programación Python.
-              p.mt-4 #[strong Markdown:] líneas de comentarios, ayudan a documentar el proyecto, pueden incluir textos con formatos, imágenes, tablas, entre otros.
-              p.mt-4 #[strong Raw:] se usa para visualizar la información tal como se escribe, pero no es interpretada por el lenguaje.
+              p.mt-4 #[strong #[em Code]:] líneas de código que son interpretadas por el lenguaje de programación Python.
+              p.mt-4 #[strong #[em Markdown]:] líneas de comentarios, ayudan a documentar el proyecto, pueden incluir textos con formatos, imágenes, tablas, entre otros.
+              p.mt-4 #[strong #[em Raw]:] se usa para visualizar la información tal como se escribe, pero no es interpretada por el lenguaje.
             .col-md-5(style="position:relative")
               figure(style="position:relative")
                 img(src='@/assets/curso/tema1/18.svg', alt='' style="position:relative")
@@ -222,7 +222,7 @@
         p(data-aos="fade-up") Las librerías son un conjunto de instrucciones que ayudan a codificar todo tipo de soluciones, y para el caso del análisis exploratorio de datos, no es la excepción; para este caso, se utilizan una serie de librerías que facilitan el tratamiento y visualización de los datos con muy pocas líneas de código.
         p.mt-4(data-aos="fade-up") Estas librerías procesan grandes volúmenes de información y generan resultados muy importantes que agilizan el estudio de los datos.
         .cajon.color-acento-botones.p-4.mt-4
-          p.mb-0(data-aos="fade-up") En el siguiente recurso educativo, conocerá las principales librerías que se trabajarán en este programa de formación, preste mucha atención, pues se explicará la forma correcta de importarlas y ejecutarlas desde los Notebooks:
+          p.mb-0(data-aos="fade-up") En el siguiente recurso educativo, conocerá las principales librerías que se trabajarán en este programa de formación, preste mucha atención, pues se explicará la forma correcta de importarlas y ejecutarlas desde los #[em Notebooks]:
       .col-md-5
         figure.mt-4
           img(src="@/assets/curso/tema1/24.svg" data-aos="fade-right")
@@ -234,13 +234,13 @@
       .col-md-7
         SlyderA.pt-5.pb-5.ps-5.pe-5.cont_slider1.mt-4(tipo="b")
           .row
-            p #[strong Librería Pandas:] herramienta creada en Python para la manipulación y visualización de grandes volúmenes de datos. Para la instalación en el Notebook, se debe crear una nueva celda de código e ingresar el comando import pandas as pd. Después, se coloca la palabra as seguida de pd, puede ser cualquier nombre, este debe ser abreviado y hacer referencia al nombre de la librería, por convención se puede  decir que Pandas se utilizará como pd.
+            p #[strong Librería Pandas:] herramienta creada en Python para la manipulación y visualización de grandes volúmenes de datos. Para la instalación en el #[em Notebook], se debe crear una nueva celda de código e ingresar el comando #[em import pandas as pd]. Después, se coloca la palabra as seguida de #[em pd], puede ser cualquier nombre, este debe ser abreviado y hacer referencia al nombre de la librería, por convención se puede  decir que Pandas se utilizará como #[em pd].
           .row
-            p #[strong Librería Matplotlib:] Es una librería que permite muy fácilmente generar diversos tipos de gráficos. Para el uso de esta librería, ingrese el siguiente comando: import matplotlib.pyplot as plt.
+            p #[strong Librería Matplotlib:] Es una librería que permite muy fácilmente generar diversos tipos de gráficos. Para el uso de esta librería, ingrese el siguiente comando: #[em import matplotlib.pyplot as plt].
           .row
-            p #[strong Librería Seaborn:]  se basa en la librería para la gestión de gráficos Matplolib, se utiliza para la visualización de gráficas más atractivas, igualmente, para los gráficos informativos y estadísticos; para usar esta librería, importe de la siguiente manera: import seaborn as sns.
+            p #[strong Librería Seaborn:]  se basa en la librería para la gestión de gráficos Matplolib, se utiliza para la visualización de gráficas más atractivas, igualmente, para los gráficos informativos y estadísticos; para usar esta librería, importe de la siguiente manera: #[em import seaborn as sns].
           .row
-            p #[strong Librería Numpy:] este conjunto de herramientas es muy útil para trabajar funciones matemáticas, algebraicas y la fácil manipulación de vectores y matrices; para usar esta librería, use: import numpy as np.
+            p #[strong Librería Numpy:] este conjunto de herramientas es muy útil para trabajar funciones matemáticas, algebraicas y la fácil manipulación de vectores y matrices; para usar esta librería, use: #[em import numpy as np].
 
 
 

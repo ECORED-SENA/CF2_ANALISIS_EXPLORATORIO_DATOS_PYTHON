@@ -14,7 +14,7 @@
       .col-md-8(style="position:relative;place-self:center;")
         .row.mt-4(style="position:relative")
           .col(style="position:relative")
-            p(data-aos="fade-up" style="position:relative") ¿Pero qué se debe tener en cuenta para comenzar con el análisis de datos? Preste mucha atención, pues a continuación se darán a conocer varias acciones que son necesarias en el momento de estudiar datos, como, por ejemplo, la preparación de la infraestructura, la determinación de los tipos de datos, el ordenamiento de los datos, su agrupamiento, la identificación de datos nulos, de datos duplicados, qué hacer con este tipos de datos, los diferentes formatos utilizados para el análisis,  entre otros.
+            p(data-aos="fade-up" style="position:relative") ¿Pero qué se debe tener en cuenta para comenzar con el análisis de datos? Preste mucha atención, pues a continuación se darán a conocer varias acciones que son necesarias en el momento de estudiar datos, como, por ejemplo, la preparación de la infraestructura, la determinación de los tipos de datos, el ordenamiento de los datos, su agrupamiento, la identificación de datos nulos, de datos duplicados, qué hacer con estos tipos de datos, los diferentes formatos utilizados para el análisis,  entre otros.
           .col-auto(style="position:relative")
             figure(style="position:relative")
               img(src="@/assets/curso/tema3/2.svg" data-aos="fade-up" style="position:relative")
@@ -97,10 +97,10 @@
             figure(style="position:relative")
               img(src="@/assets/curso/tema3/9.svg" data-aos="fade-up" style="position:relative")
           .col(style="position:relative")
-            p(data-aos="fade-up" style="position:relative") Continuando con el análisis, se procede con la lectura de los datos que ya se encuentran en el archivo, los cuales deben ser asignados a la variable df. Para ese fin, se debe ejecutar el siguiente comando:
+            p(data-aos="fade-up" style="position:relative") Continuando con el análisis, se procede con la lectura de los datos que ya se encuentran en el archivo, los cuales deben ser asignados a la variable #[em df]. Para ese fin, se debe ejecutar el siguiente comando:
             .cajon.color-acento-botones.p-4.mt-3(style="position:relative")
               p.mb-0.text-center(data-aos="fade-up" style="position:relative") #[strong df = pd.read_csv('DatosSeguros.csv')]
-        p.mt-4(data-aos="fade-up" style="position:relative") El nombre de la variable será df, que hace referencia a un dataframe, es decir, a una colección de datos organizados en filas y columnas, a la cual se le puede asignar el nombre que se prefiera o que mejor represente dichos datos.
+        p.mt-4(data-aos="fade-up" style="position:relative") El nombre de la variable será #[em df], que hace referencia a un #[em dataframe], es decir, a una colección de datos organizados en filas y columnas, a la cual se le puede asignar el nombre que se prefiera o que mejor represente dichos datos.
 
     Separador
 
@@ -114,7 +114,7 @@
             figure(style="position:relative")
               img(src="@/assets/curso/tema3/11.svg" data-aos="fade-up" style="position:relative")
           .col(style="position:relative")
-            p(data-aos="fade-up" style="position:relative") Después de la lectura de los datos dentro del archivo de texto en formato CSV, que se encuentran almacenados ahora en la variable df, se debe aplicar el siguiente comando para obtener información de los datos:
+            p(data-aos="fade-up" style="position:relative") Después de la lectura de los datos dentro del archivo de texto en formato CSV, que se encuentran almacenados ahora en la variable #[em df], se debe aplicar el siguiente comando para obtener información de los datos:
             .cajon.color-acento-botones.p-4.mt-3.col-md-9.m-auto(style="position:relative")
               p.mb-0.text-center(data-aos="fade-up" style="position:relative") #[strong df.info()]
         p.mt-4(data-aos="fade-up" style="position:relative") En la #[strong(style="color:#34A3ED;") tabla 1], se identifican los campos obtenidos en la colección de datos clasificados en categóricos y numéricos.
