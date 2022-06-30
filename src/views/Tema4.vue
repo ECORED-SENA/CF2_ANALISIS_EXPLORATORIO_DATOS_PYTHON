@@ -112,7 +112,7 @@ export default {
   position: absolute
   width: 91%
   height: 112%
-  left: 10%
+  left: 25%
   top: -8%
 .cajon.color-acento-botones
   background-color: #FFECB1
@@ -120,9 +120,9 @@ export default {
   content: ''
   background-image: url(../assets/curso/tema3/3.svg)
   position: absolute
-  width: 88%
+  width: 91%
   height: 85%
-  right: 14%
+  right: 18%
   top: -4%
   transform: rotate(180deg)
 .cont_background4_3:before
