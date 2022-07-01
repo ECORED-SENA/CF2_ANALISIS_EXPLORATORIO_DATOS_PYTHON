@@ -148,12 +148,12 @@
 
           .row.col-md-10.m-auto(titulo="7" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
-              h4(style="position:relative") Herramientas del archivo Notebook
-              p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo Notebook, y que ayuda al desarrollo del proyecto.
+              h4(style="position:relative") Herramientas del archivo #[em Notebook]
+              p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo #[em Notebook], y que ayuda al desarrollo del proyecto.
               ul.lista-ul.mt-2
                 li
                   i.fas.fa-caret-right(style="color:#067EFF;")
-                  | Para guardar el Notebook, utilice el primer ícono en forma de disquete.
+                  | Para guardar el #[em Notebook], utilice el primer ícono en forma de disquete.
                 li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Cada vez que se requiere adicionar una nueva línea, ya sea de comentario o de código, se utiliza el ícono con el signo +.

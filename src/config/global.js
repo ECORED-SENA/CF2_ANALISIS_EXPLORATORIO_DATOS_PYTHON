@@ -249,7 +249,7 @@ export default {
     {
       tema: 'Análisis Exploratorio de Datos',
       referencia:
-        'Abonaplata. (2019). Análisis exploratorio de datos con Python. Kaggle. https://www.kaggle.com/code/abonaplata/analisis-exploratorio-de-datos-con-python/notebook',
+        'Abonaplata. (2019). Análisis exploratorio de datos con Python.',
       tipo: 'Página Web',
       link:
         'https://www.kaggle.com/code/abonaplata/analisis-exploratorio-de-datos-con-python/notebook',
@@ -257,22 +257,21 @@ export default {
     {
       tema: 'Análisis Exploratorio de datos',
       referencia:
-        'Sotaquirá, M. (2021). ¿Cómo hacer el Análisis Exploratorio de Datos? - Guía paso a paso. Codificando bits. https://www.codificandobits.com/blog/analisis-exploratorio-de-datos/',
+        'Sotaquirá, M. (2021). ¿Cómo hacer el Análisis Exploratorio de Datos? - Guía paso a paso. Codificando bits.',
       tipo: 'Página Web',
       link:
         'https://www.codificandobits.com/blog/analisis-exploratorio-de-datos/',
     },
     {
       tema: 'Descargar Anaconda',
-      referencia:
-        'Anaconda. (s. f.). Anaconda Distribution. https://www.anaconda.com/products/individual?modal=nucleus',
+      referencia: 'Anaconda. (s. f.). Anaconda Distribution.',
       tipo: 'Página Web',
       link: 'https://www.anaconda.com/products/individual?modal=nucleus',
     },
     {
       tema: 'Colección de Datos',
       referencia:
-        'MAJYHAIN. (2022). Height of Male and Female by Country 2022. Kaggle.  https://www.kaggle.com/datasets/majyhain/height-of-male-and-female-by-country-2022',
+        'MAJYHAIN. (2022). Height of Male and Female by Country 2022. Kaggle.',
       tipo: 'Página Web',
       link:
         'https://www.kaggle.com/majyhain/height-of-male-and-female-by-country-2022',
