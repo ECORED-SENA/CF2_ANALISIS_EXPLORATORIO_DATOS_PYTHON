@@ -175,7 +175,7 @@
 
           .row.col-md-10.m-auto(titulo="8" style="position:relative")
             .col-md-7.mb-4.mb-md-0(style="position:relative")
-              h4(style="position:relative") Herramientas del archivo Notebook
+              h4(style="position:relative") Línea de código o de comentario
               p(style="position:relative") En la parte superior derecha, está la lista de opciones para indicar si una línea es de código o de comentario; como se aprecia en la siguiente imagen, se pueden seleccionar tres opciones:
               p.mt-4 #[strong #[em Code]:] líneas de código que son interpretadas por el lenguaje de programación Python.
               p.mt-4 #[strong #[em Markdown]:] líneas de comentarios, ayudan a documentar el proyecto, pueden incluir textos con formatos, imágenes, tablas, entre otros.
