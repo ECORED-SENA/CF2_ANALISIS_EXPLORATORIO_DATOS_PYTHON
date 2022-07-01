@@ -152,8 +152,7 @@
               p(style="position:relative") A continuación, se detalla cada herramienta que hace parte del archivo #[em Notebook], y que ayuda al desarrollo del proyecto.
               ul.lista-ul.mt-2
                 li
-                  i.fas.fa-caret-right(style="color:#067EFF;")
-                  | Para guardar el #[em Notebook], utilice el primer ícono en forma de disquete.
+                  p.mb-0 #[i.fas.fa-caret-right(style="color:#067EFF;")] Para guardar el #[em Notebook], utilice el primer ícono en forma de disquete.
                 li
                   i.fas.fa-caret-right(style="color:#067EFF;")
                   | Cada vez que se requiere adicionar una nueva línea, ya sea de comentario o de código, se utiliza el ícono con el signo +.
